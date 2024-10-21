@@ -1,9 +1,9 @@
-// querySelector
+// querySelector // 0 a 1 elemento
 const heading = document.querySelector('.header__texto h2'); // 0 o 1 Elementos
 heading.textContent = 'Nuevo Heading'
 console.log(heading);
 
-// querySelectorAll
+// querySelectorAll 
 const enlaces = document.querySelectorAll('.navegacion a');
 enlaces[0].textContent = 'Nuevo Texto para Enlace';
 enlaces[0].classList.add('nueva-clase');
@@ -18,6 +18,7 @@ nuevoEnlace.href = 'nuevo-enlace.html'
 nuevoEnlace.textContent = 'Un Nuevo Enlace';
 // Agregar la clase
 nuevoEnlace.classList.add('navegacion__enlace');
+
 
 // Agregarlo al documento
 const navegacion = document.querySelector('.navegacion');
